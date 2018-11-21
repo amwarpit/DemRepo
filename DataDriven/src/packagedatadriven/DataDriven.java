@@ -29,7 +29,7 @@ driver.get("http://test.medefer.com/Account/Login");
 Thread.sleep(3000);
 driver.findElement(By.name("UserName")).clear();
 driver.findElement(By.name("UserName")).sendKeys(username);
-Thread.sleep(2000);
+Thread.sleep(3000);
 driver.findElement(By.name("Password")).clear();
 driver.findElement(By.name("Password")).sendKeys(password);
 Thread.sleep(3000);
